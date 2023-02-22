@@ -1,0 +1,7 @@
+pandas_ta
+pandas
+fastapi
+uvicorn
+matplotlib
+# scikit-learn
+# pytest
