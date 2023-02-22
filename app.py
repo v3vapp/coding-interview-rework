@@ -8,7 +8,7 @@ app = FastAPI()
 class Params(BaseModel):
     minimum: int
     maximum: int
-    sma_length: Optional[int] = None
+    sma_length: Optional[int] = 30
 
 @app.post("/v1/prime_number/")
 async def create_item(params: Params):
